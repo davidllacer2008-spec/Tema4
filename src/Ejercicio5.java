@@ -8,7 +8,7 @@ public class Ejercicio5{
         int[] array; // Declaración
         array = new int[10];  // instanciación
         // Inicialización
-        System.out.printf("Introduce 10 valores enteros:");
+        System.out.println("Introduce 10 valores enteros:");
         for (int i = 0; i < array.length; i++) {
             array[i] = input.nextInt();
         }
